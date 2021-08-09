@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    char ch;
-    int num1,num2,ans;
+    int ch,num1,num2,ans;
     printf("Menu");
     printf("\n____");
     printf("\n1. Addition");
@@ -10,7 +9,7 @@ int main()
     printf("\n3. Division");
     printf("\n4.Multiplication");
     printf("\nEnter your choice - ");
-    scanf("%c",&ch);
+    scanf("%d",&ch);
     printf("\nEnter two numbers - ");
     scanf("%d %d",&num1,&num2);
     switch(ch)
