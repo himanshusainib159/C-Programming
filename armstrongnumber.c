@@ -6,7 +6,7 @@ int main()
     int temp;
     for(temp=n;temp>0;)
     {
-       // r=temp%10;
+       //  sr=temp%10;
         temp=temp/10;
         count++;
     }
