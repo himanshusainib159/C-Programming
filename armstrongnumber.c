@@ -2,7 +2,7 @@
 #include<math.h>
 int main()
 {
-    int n=15121,r,count,sum=0;
+    int n=77777,r,count,sum=0;
     int temp;
     for(temp=n;temp>0;)
     {
