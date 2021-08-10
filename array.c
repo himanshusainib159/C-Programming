@@ -6,4 +6,9 @@ int main()
     A[1] =15;
     A[3] =20;
     printf("%d",A[1]);
+    int b[3]={1,2,3};
+    for(int i=0;i<3;i++)
+    {
+        printf("\n%d",b[i]);
+    }
 }
