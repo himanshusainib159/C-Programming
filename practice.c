@@ -1,6 +1,7 @@
 #include<stdio.h>
-int main()
+void main()
 {
-    char* c= (char)'a';
-    printf("%c",*c);
+    char str[50];
+    scanf("%[^\n]",str);
+    printf("%s",str);    
 }
